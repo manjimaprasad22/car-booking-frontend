@@ -1,5 +1,8 @@
 .App {
   text-align: center;
+  
+  /* background-color: goldenrod; */
+  z-index: 0;
 }
 
 .App-logo {
@@ -35,4 +38,79 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+#titl{
+  font-family: cursive;
+  font-size: x-large;
+  color: white;
+}
+.lab{
+  font-family: fantasy;
+  position: absolute;
+  
+  z-index: 1;
+  color: goldenrod;
+  font-size: 50px;
+  width: 600px;
+  opacity: 60%;
+}
+.imag{
+  position: relative;
+  height: 300px;
+  width: 100%;
+  object-fit: cover;
+
+}
+.login{
+  float: right;
+  margin: 5px;
+  display: flex;
+}
+.nav{
+  color: white;
+}
+.box{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 20px;
+  margin-top: 100px;
+  
+}
+.box1{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 20px;
+  padding: 30px;
+  border: solid rgb(195, 187, 187) 1px;
+}
+.box2{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height:500px;
+}
+.box3{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.forms{
+  padding: 30px;
+  width: 400px;
+  color: white;
+  background-color: rgb(65, 61, 61);
+  border-radius: 5%;
+}
+.side{
+ /* margin-top: 10px; */
+ z-index: 1;
+ margin-top: -60px;
+}
+.login{
+  background-color: white;
 }
